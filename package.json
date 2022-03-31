@@ -1,0 +1,30 @@
+{
+  "name": "use-composition-input",
+  "version": "1.0.0",
+  "description": "resolve non-latin typing issue",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaszdxsn/use-composition-input.git"
+  },
+  "keywords": [
+    "react",
+    "react-hooks"
+  ],
+  "author": "thomaszdxsn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomaszdxsn/use-composition-input/issues"
+  },
+  "homepage": "https://github.com/thomaszdxsn/use-composition-input#readme",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.43"
+  }
+}
