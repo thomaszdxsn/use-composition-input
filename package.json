@@ -2,9 +2,12 @@
   "name": "use-composition-input",
   "version": "1.0.0",
   "description": "resolve non-latin typing issue",
-  "main": "index.ts",
+  "main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"prepublish": "tsc",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
-    "@types/react": "^17.0.43"
+    "@types/react": "^17.0.43",
+    "typescript": "^4.6.3"
   }
 }

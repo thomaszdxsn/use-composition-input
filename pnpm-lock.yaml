@@ -2,9 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@types/react': ^17.0.43
+  typescript: ^4.6.3
 
 devDependencies:
   '@types/react': 17.0.43
+  typescript: 4.6.3
 
 packages:
 
@@ -26,4 +28,10 @@ packages:
 
   /csstype/3.0.11:
     resolution: {integrity: sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==}
+    dev: true
+
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
